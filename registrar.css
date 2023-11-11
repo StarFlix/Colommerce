@@ -1,0 +1,118 @@
+/* ... (código CSS anterior) ... */
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+
+
+.form-control {
+    padding: 1rem;
+}
+
+
+/* ... (código CSS posterior) ... */
+
+
+
+form {
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-gap: 0px;
+    
+  }
+
+.p-6 {
+    text-align: center;
+    padding: 4rem 7rem;
+    background-color: #152d9979;
+    
+}
+
+
+
+.formulario{
+    float: left;
+}
+.prueba {
+    background-color: #25262b46;
+    padding: 1rem; 
+    transition: padding 0.3s;
+    border-radius: 6px;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    margin: 0 auto;
+    padding-bottom: 58px;
+}
+
+.btn {
+    font-weight: 400;
+    padding: 1rem 5rem;
+    border-radius: 5rem;
+    min-width: 10rem;
+    margin: 5rem -35px -5px;
+    display: block;
+}
+
+.btn:hover{
+    background-color: #ad2a2ae1;
+    color: rgb(255, 255, 255);
+}
+
+.btn-outline-dark {
+    border: 2px solid var(--color-dark-xx);
+}
+.font-weight-bold{
+    
+    color: BLACK;
+}
+
+.form-control {
+    border-radius: 300.2rem;
+    padding: 1.5rem 1rem;
+}
+
+.register-bg {
+    background-image: linear-gradient(180deg, #cccf1657 0%, #152d998c 50%, #eb14148c 100%), url(imagenes/Registrarse.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50PX;
+}
+
+.testiomonial {
+    color: white;
+    text-align: center;
+    display: grid;
+    bottom: 10px;
+    font-size: 3rem;
+    align-content: center;
+
+}
+
+@media (max-width: 575.98px) {
+    .p-6 {
+        color: white;
+        padding: 2rem;
+    }
+
+    .contact-box {
+        padding: 0;
+    }
+
+    .width-100 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) { 
+    .register-bg {
+        min-height: 50vh;
+    }
+}

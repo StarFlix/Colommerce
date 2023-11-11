@@ -1,0 +1,69 @@
+
+.imgp{
+    width: 380px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(156, 28, 207, 0.5);
+}
+.productos{
+    background-color:#4e257a1b ;
+}
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.fw-300{
+    font-weight: 300;
+}
+
+.centrar-texto{
+    text-align: center;
+}
+
+.contenedor-anuncio{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.anuncio{
+    flex-basis: calc(33.3% - 1rem);
+    border: 1px solid #b5b5b5;
+    background: #f5f5f5;
+    margin-bottom: 20px;
+}
+
+.contenido-anuncio{
+    padding: 20px;
+}
+
+.precio{
+    color: #51365e;
+    font-weight: 700;
+}
+
+.block{
+    display: block!important;
+}
+.boton{
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 10px;
+    display: inline-block;
+    border: none;
+    text-align: center;
+}
+
+.btn-naranja{
+    background-color: #4e257a;
+}
+
+.btn-naranja:hover{
+    background-color: #1d1a20;
+}
+
+.btn-verde{
+    background-color: #d60303;
+}

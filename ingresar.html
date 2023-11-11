@@ -1,0 +1,137 @@
+<!-- INICIO -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colommerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Logo/Logo2.png" type="image/x-icon">
+    <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="ingresar.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<!-- NAV Y ENCABEZADO -->
+
+<body>
+    <nav class="menu">
+        <section class="menu__container">
+            <img data-aos="fade-up" src="Logo/Logox2.png" class="menu__logo"></img>
+
+        <ul data-aos="fade-up" class="menu__links">
+            <li class="menu__item">
+                <a href="index.html" class="menu__link">Inicio<img src="imagenes/despligue.svg" class="menu__arrow"></a>
+            </li>
+
+            <li class="menu__item">
+                <a href="nosotros.html" class="menu__link">Nosotros<img src="imagenes/despligue.svg" class="menu__arrow"></a>
+             </li>
+
+             <li class="menu__item">
+                <a href="ingresar.html" class="menu__link">Inicie sesión<img src="imagenes/despligue.svg" class="menu__arrow"></a>
+             </li>
+
+             <li class="menu__item">
+                <a href="registrar.html" class="menu__link">Registrese<img src="imagenes/despligue.svg" class="menu__arrow"></a>
+             </li>
+         </ul>
+    </nav>
+
+<!-- FORMULARIO -->
+
+
+    <form action="validar.php" method="post">
+        <section class="contact-box">
+            <div class="row no-gutters bg-dark">
+                <div class="col-xl-5 col-lg-12 register-bg">
+                 <div class="position-absolute testiomonial p-4">
+                     <h3 data-aos="fade-up"
+                     data-aos-duration="1000" class="lead text-light">Colommerce</h3>
+                     <p data-aos="fade-up"
+                     data-aos-duration="1000" class="lead text-light">Inicia en nuestra comunidad de emprendedores</p>
+                 </div>
+                </div>
+                
+                <div class="col-xl-7 col-lg-12 d-flex">
+                     <div class="container align-self-center p-6">
+                        <div class="prueba">
+                         <h1  data-aos="flip-down"class="font-weight-bold mb-3">Información personal - Colommerce</h1>
+                        
+        <h3 data-aos="flip-down" class="font-weight-bold text-light">Usuario y contraseña (GUARDE ESTOS DATOS)</h3>
+
+        <div data-aos="zoom-in-down" class="form-group mb-3">
+          <label  class="font-weight-bold" for="Usuario">Usuario
+            <span  class="text-danger" class="obligatorio">*</span>
+            <br>
+          </label>
+            <input class="form-control" type="text" id="Usuario" name="usuario" required="obligatorio" placeholder="Ingrese su usuario">
+        </div>
+        <br>
+
+        <div data-aos="zoom-in-down" class="form-group mb-3">
+          <label class="font-weight-bold" for="Contraseña">Contraseña
+            <span class="text-danger" class="obligatorio">*</span>
+            <br>
+          </label>
+            <input class="form-control" type="password" id="contraseña" name="contraseña" required="obligatorio" placeholder="Ingrese su contraseña">
+        </div>
+        <br>
+
+        <button type="submit" id="Registrarse" class="btn btn-primary width-100">Iniciar sesion</button>
+    </div>
+</div>
+</div>
+</section>
+
+
+<!-- Footer -->
+
+<footer id="footer">
+    <div class="contenedor footer-contenido">
+            <div class="logo-us">
+                <img data-aos="fade-up" class="logo" src="Logo/Logox2.png">
+                <img data-aos="fade-up" class="logo" src="Logo/Logo2.png">
+            </div>
+            <div data-aos="fade-up"  class="media">
+                <a href="index.html" class="media-icon">
+                    <i class='icono_home'>
+                        <img src="imagenes/home.svg" alt="">
+                    </i>
+                </a>
+                <a href="registrar.html" class="media-icon">
+                    <i class='icono_nosotros'>
+                        <img src="imagenes/question.svg" alt="">
+                    </i>
+                </a>
+                <a href="ingresar.html" class="media-icon">
+                    <i class='icono_ingresar' >
+                        <img src="imagenes/ingresar.svg" alt="">
+                    </i>
+                </a>
+            </div>
+    </div>
+    <div class="linea"></div>
+    <p  class="derechos">Colommerce</p>
+    <br>
+    <p  class="contactom"> Contacto: colommerce@gmail.com || +573136769185 || 
+        Facebook/Instagram/Twitter: Colommerce ||</p>
+</footer>
+
+<!-- SCRIPT -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="JS\funciones.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+    </body>
+    
+    </html>

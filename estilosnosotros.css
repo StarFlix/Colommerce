@@ -1,0 +1,164 @@
+
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: 'DM Serif Display', serif; ;
+}
+
+.menu{
+    background-color: #3e52ad;
+    color: #fff;
+    height: 70px;
+}
+
+.menu__logo{
+height: 60px;
+}
+
+.menu__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.menu__links{
+    height: 100%;
+    transition: transform .5s;
+    display: flex;
+}
+
+.menu__item{
+    list-style: none;
+    position: relative;
+    height: 100%;
+    --clip:polygon(0 0, 100% 0, 100% 0, 0 0);
+    --transform: rotate(0);
+}
+
+.menu__item:hover{
+    --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    --transform: rotate(90deg)
+}
+
+.menu__arrow{
+    transform: var(--transform);
+    transition: transform .3s;
+}
+
+.menu__link{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.menu__link:hover{
+    background-color: #ad2a2ae1;
+}
+
+/**/
+
+.encabezado__nosotros{
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 800px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    color: #fff;
+}
+.encabezado__nosotros::before{
+    background-image: linear-gradient(180deg, #cccf1657 0%, #152d998c 50%, #eb14148c 100%), url(imagenes/Nosotros.jpg);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+}   
+
+/**/
+
+
+.nosotros{
+    text-align: center;
+}
+
+.contenido__nosotros{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    padding-bottom: 100px
+}
+
+.nosotros2{
+    text-align: center;
+    background-color: #8d8dd1;
+    background-image: radial-gradient(#4e257a 1.4000000000000001px, #e5e5f7 1.4000000000000001px);
+    background-size: 28px 28px;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+.texto__nosotros blockquote{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 50px 30px 0px;
+}
+
+.texto__nosotros__texto blockquote{
+    font-weight: 700;
+    margin: 0;
+    padding: 10px 0 30px 0;
+
+}
+
+.texto__nosotros p{
+    text-align: justify;
+    width: 90%;
+}
+
+.imagen__nosotros{
+    height: 400px
+}
+
+.fondo-contacto{
+    background-image: linear-gradient(180deg, #cccf1657 0%, #152d998c 50%, #eb14148c 100%), url(imagenes/VisionMision.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.white{
+    color: white;
+}
+
+.nosotros_estrategia{
+    background-color: #152d9952;
+}
+
+.Crecimiento{
+    background-color: #152d9952;
+}
+
+
+
+
+

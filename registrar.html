@@ -1,0 +1,276 @@
+
+<!-- INICIO -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colommerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Logo/Logo2.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="registrar.css">
+
+</head>
+
+<!-- NAV Y ENCABEZADO -->
+
+<body>
+    <nav class="menu">
+        <section class="menu__container">
+            <img src="Logo\Logox2.png" class="menu__logo"></img>
+
+        <ul class="menu__links">
+            <li class="menu__item">
+                <a href="index.html" class="menu__link">Inicio<img src="imagenes/despligue.svg" class="menu__arrow"></a>
+            </li>
+
+            <li class="menu__item">
+                <a href="nosotros.html" class="menu__link">Nosotros<img src="imagenes/despligue.svg" class="menu__arrow"></a>
+             </li>
+
+             <li class="menu__item">
+                <a href="ingresar.html" class="menu__link">Inicie sesión<img src="imagenes/despligue.svg" class="menu__arrow"></a>
+             </li>
+
+             <li class="menu__item">
+                <a href="registrar.html" class="menu__link">Registrese<img src="imagenes/despligue.svg" class="menu__arrow"></a>
+             </li>
+         </ul>
+    </nav>
+
+
+<!-- FORMULARIO -->
+
+   <section class="contact-box">
+       <div class="row no-gutters bg-dark">
+           <div class="col-xl-5 col-lg-12 register-bg">
+            <div class="position-absolute testiomonial p-4">
+                <h3 class="lead text-light">Colommerce</h3>
+                <p class="lead text-light">Sea parte de nuestra comunidad de emprendedores</p>
+            </div>
+           </div>
+           <div class="col-xl-7 col-lg-12 d-flex">
+                <div class="container align-self-center p-6">
+ 
+                    <div class="prueba">
+                    <h1 class="font-weight-bold mb-3">Información personal - Colommerce</h1>
+                    <br>
+
+                     <!-- METODO POST -->
+
+                    <form action="formulario.php" method="post">  
+
+                    <!-- DOCUMENTO -->
+
+                        <div class="form-row mb-2">
+                            <div class="form-group col-md-6">
+                                <label for="Documento" class="font-weight-bold">Documento de identidad
+                                    <span class="text-danger">*</span> </label>
+                                    <br>
+                               
+                               
+                                <input id="Documento" name= "Documento"   type="number" class="form-control" placeholder="Su documento de identidad">
+                            </div>
+                            <br>
+
+                     <!-- FOTO -->
+
+                            <div class="form-row mb-2">
+                                <div class="form-group col-md-6">
+                                    <label for="Foto" class="font-weight-bold">Foto 
+                                        <span class="text-danger">*</span></label>
+                                        <br>
+                                    <input id="Foto" name= "Foto"   type="file" class="form-control">
+                                </div>
+                            </div>
+                                <br>
+
+                         <!-- NOMBRES -->
+
+                                <div class="form-row mb-2">
+                                    <div class="form-group col-md-6">
+                                        <label for="Nombres" class="font-weight-bold">Nombres
+                                            <span class="text-danger">*</span></label>
+                                            <br>
+                                        <input type="text" id="Nombres" name= "Nombres"  class="form-control" placeholder="Ingrese sus nombres">
+                                    </div>
+                                    <br>
+
+                        <!-- APELLIDOS -->
+
+                            <div class="form-group col-md-6">
+                                <label for="Apellidos" class="font-weight-bold">Apellidos
+                                    <span class="text-danger">*</span></label>
+                                    <br>
+                                <input type="text" id="Apellidos" name= "Apellidos"   class="form-control" placeholder="Ingrese sus apellidos">
+                            </div>
+                        </div>
+                        <br>
+
+                         <!-- GENERO -->
+
+                        <div class="form-group mb-3">
+                            <label for="Genero" class="font-weight-bold">Género
+                                <span class="text-danger">*</span></label>
+                            <br>
+                            <label class="font-weight-bold" for="Genero"></label> <input type="text" id="Genero" name= "Genero" placeholder="Escriba su genero">  
+                        </div>
+                        <br>
+
+                         <!-- EDAD -->
+
+                        <div class="form-group mb-3">
+                            <label for="Edad" class="font-weight-bold">Edad 
+                                <span class="text-danger">*</span></label>
+                                <br>
+                            <input type="number" id="Edad" name= "Edad"   placeholder class="form-control" placeholder="Ingrese su edad">
+                        </div>
+
+                         <!-- TELEFONO -->
+
+                        <br>
+                        <div class="form-group mb-3">
+                            <label for="Telefono" class="font-weight-bold">Telefono 
+                                <span class="text-danger">*</span></label>
+                                <br>
+                            <input type="tel" id="Telefono" name= "Telefono" class="form-control" placeholder="Ingrese su número telefonico">
+                        </div>
+
+                         <!-- CORREO -->
+
+                
+                        </div>
+                        <div class="container align-self-center p-7">
+                        
+                        <div class="form-group mb-3">
+                            <label for="Correo" class="font-weight-bold">Correo 
+                                <span class="text-danger">*</span></label>
+                                <br>
+                            <input type="email" id="Correo" name= "Correo"  class="form-control" placeholder="Ingrese su correo">
+                        </div>
+                        <br>
+                        
+                         <!-- DIRECCION -->
+
+                        <div class="form-group mb-3">
+                            <label for="Direccion" class="font-weight-bold">Dirección 
+                                <span class="text-danger">*</span></label>
+                                <br>
+                            <input type="text" id="Direccion" name= "Direccion" class="form-control" placeholder="Ingrese su dirección de residencia">
+                        </div>
+                        <br>
+    
+                         <!-- INTERES -->
+                        
+                        <div class="form-group mb-3">
+                        <label class="font-weight-bold" for="Interes">¿A qué se debe su interes <br>por esta idea de negocio?
+                        <span class="text-danger" class="obligatorio">*</span>
+                        <br>
+                        </label>                     
+                        <textarea id="Interes" name="Interes"  placeholder="Escriba aqui"></textarea> 
+                        </div>
+                        <br>
+                    
+                         <!-- Roles -->
+                        <div class="form-group mb-3">
+                            <label for="id_cargo" class="font-weight-bold">¿Es nuevo? 
+                                <span class="text-danger">*</span></label>
+                                <br>
+                            <input type="text" id="id_cargo" name= "id_cargo" class="form-control" placeholder="Ingrese 1 si es nuevo">
+                        </div>
+                        <br>
+              
+                            <h3 class="text-light">Usuario y contraseña (GUARDE ESTOS DATOS)</h3>
+
+                         <!-- USUARIO -->
+
+                            <div class="form-group mb-3">
+                              <label class="font-weight-bold" for="usuario">Usuario
+                                <span class="text-danger" class="obligatorio">*</span>
+                                <br>
+                              </label>
+                                <input class="form-control" type="text" id="usuario" name="usuario" placeholder="Ingrese su usuario">
+                            </div>
+                            <br>
+                
+                         <!-- CONTRASEÑA -->
+
+                            <div class="form-group mb-3">
+                              <label class="font-weight-bold" for="Contraseña">Contraseña
+                                <span class="text-danger" class="obligatorio">*</span>
+                                <br>
+                              </label>
+                                <input class="form-control" type="password" id="Contraseña" name="Contraseña"  placeholder="Ingrese su contraseña">
+                            </div>
+                            <br>
+
+                         <!-- CONFIRMAR CONTRASEÑA -->
+
+                            <div class="form-group mb-3">
+                                <label class="font-weight-bold" for="contraseñac">Confirmar contraseña
+                                  <span class="text-danger" class="obligatorio">*</span>
+                                  <br>
+                                </label>
+                                  <input class="form-control" type="password" id="contraseñac" name="contraseñac"  placeholder="Ingrese su contraseña nuevamente">
+                                </div>
+                            
+                        
+                         <!-- ENVIAR -->
+                    <button type="submit" id="Registrarse" class="btn btn-primary width-100">Registrarse</button>
+                </div>
+            </div>
+
+                    </form>
+                </div>
+                </div>
+           </div>
+       </div>
+   </section>
+
+<!-- FOOTER -->
+
+ <footer id="footer">
+    <div class="contenedor footer-contenido">
+            <div class="logo-us">
+                <img data-aos="fade-up" class="logo" src="Logo/Logox2.png">
+                <img data-aos="fade-up" class="logo" src="Logo/Logo2.png">
+            </div>
+            <div data-aos="fade-up"  class="media">
+                <a href="index.html" class="media-icon">
+                    <i class='icono_home'>
+                        <img src="imagenes/home.svg" alt="">
+                    </i>
+                </a>
+                <a href="registrar.html" class="media-icon">
+                    <i class='icono_nosotros'>
+                        <img src="imagenes/question.svg" alt="">
+                    </i>
+                </a>
+                <a href="ingresar.html" class="media-icon">
+                    <i class='icono_ingresar' >
+                        <img src="imagenes/ingresar.svg" alt="">
+                    </i>
+                </a>
+            </div>
+    </div>
+    <div class="linea"></div>
+    <p  class="derechos">Colommerce</p>
+    <br>
+    <p  class="contactom"> Contacto: colommerce@gmail.com || +573136769185 || 
+        Facebook/Instagram/Twitter: Colommerce ||</p>
+</footer>
+
+<!-- SCRIPT -->
+
+<script src="JS\funciones.js"></script>
+</body>
+</html>
+</body>
+</html>

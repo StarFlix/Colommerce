@@ -1,0 +1,23 @@
+
+#cabecera {
+	opacity: 1;
+	text-align: center;
+
+}
+#contenido {
+	min-height: 401px;
+
+}
+#footer {
+}
+#img1 {
+	height: 20%;
+	width: 100%;
+	background-color: black;
+}
+body {
+}
+
+h1{
+	text-align: center;
+}
